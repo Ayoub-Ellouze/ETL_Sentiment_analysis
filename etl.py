@@ -49,9 +49,9 @@ def clean(item):
 
 
 server = 'DESKTOP-QPPVGFN' # to specify an alternate port
-database = 'twitter' 
-username = 'ayoub' 
-password = 'samana147'
+database = '' 
+username = '' 
+password = ''
 
 params = urllib.parse.quote_plus('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 
@@ -60,13 +60,13 @@ engine = create_engine("mssql+pyodbc:///?odbc_connect=%s" % params) #connection 
 
 
 #les identifients de connection (reliès au compte twitter developpers)
-API_key="MQqNddzsMw0gQObwak9MQOeET"
-API_key_secret="d7661tVhpcb3Tpl6lb99RNiipSWsb9EPltMKYcxFBXr7dzcIuF"
-Bearer_Token="AAAAAAAAAAAAAAAAAAAAAJvzlwEAAAAA49rN%2FR1De6gVLF7y%2BN0EI1E5WJ4%3D34XaQ4HtfGykKQW6geXqphzcuqPBvSPbc9svUKtjLAX6RmiyfO"
-access_token="1593034686229614593-Y6n6IpY0j5RVIqil3RMV7Cm63voT87"
-access_token_secret="uM1DtjDmtJItNj2IZ5nHIeim9lBr8VpRkTgnBnG3OGY8k"
-Client_ID="dmJCS1ViZVlkTmhaNktXRldNRXI6MTpjaQ"
-Client_Secret="19tyXbxmqG_iEUSmYcS4ZcmI_0uwaI3vr2N5SbBM46wBEy2hXs"
+API_key=""
+API_key_secret=""
+Bearer_Token=""
+access_token=""
+access_token_secret=""
+Client_ID=""
+Client_Secret=""
 
 
 #connection authorisés
